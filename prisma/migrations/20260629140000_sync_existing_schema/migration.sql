@@ -1,0 +1,2 @@
+-- This migration records schema changes that were already present in the database.
+-- The columns for Problem.solutionCode and the Submission error/failed* fields are already present.

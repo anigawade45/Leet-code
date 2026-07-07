@@ -1,0 +1,437 @@
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 14:27:39"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 15:08:41"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 16:28:31"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 16:28:31"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 17:14:39"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 17:14:39"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:17"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:17"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:18"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:19"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:19"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:19"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:19"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:19"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:20"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:20"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:20"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:20"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:21"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:21"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:21"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:21"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:22"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:22"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:22"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:22"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:23"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:23"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:24"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:24"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:25"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:25"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:25"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:26"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:26"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 18:18:27"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:36"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:36"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:37"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:37"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:38"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:38"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:39"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:39"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:40"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:40"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:41"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:41"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:43"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:43"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:44"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:44"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:45"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:45"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:47"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:47"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:48"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:03:48"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:39:57"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:39:57"}
+{"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:43:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:43:08"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:57"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:57"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:57"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:55:58"}
+{"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:56:09"}
+{"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 19:56:09"}
+{"error":"write ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:03:06"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:18"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:18"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:21"}
+{"error":"","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:25"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:26"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:26"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:26"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:26"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:27"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:27"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:28"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:28"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:30"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:31"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:32"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:32"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:33"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:33"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:34"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:35"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:35"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:36"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:37"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:38"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:38"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:39"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:41"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:41"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:42"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:42"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:44"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:44"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:44"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:45"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:45"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:47"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:47"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:47"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:49"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:49"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:49"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:50"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:51"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:52"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:53"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:53"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:54"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:55"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:55"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:56"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:56"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:58"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:58"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:58"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:24:58"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:00"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:01"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:02"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:04"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:05"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:05"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:09"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:09"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:11"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:11"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:11"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:13"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:13"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:16"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:18"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:18"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:18"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:21"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:21"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:21"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:21"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:26"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:26"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:28"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:28"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:30"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:30"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:31"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:33"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:36"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:36"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:37"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:37"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:41"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:42"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:44"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:45"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:46"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:47"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:49"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:50"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:51"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:52"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:52"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:54"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:55"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:57"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:57"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:58"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:58"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:25:59"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:02"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:02"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:05"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:05"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:08"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:09"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:11"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:12"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:15"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:18"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:18"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:26"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:28"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:37"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:37"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:39"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:42"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:42"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:45"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:46"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:48"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:49"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:52"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:52"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:53"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:55"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:55"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:58"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:58"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:26:58"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:05"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:05"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:08"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:08"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:12"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:12"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:57"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:57"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:57"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:27:58"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:00"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:00"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:00"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:00"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:02"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:02"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:04"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:04"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:09"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:09"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:10"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:10"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:11"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:11"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:14"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:14"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:17"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:17"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:19"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:19"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:22"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:22"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:31"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:31"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:36"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:36"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:38"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:38"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:41"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:41"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:43"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:28:43"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:24"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:24"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:25"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:26"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:26"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:27"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:28"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:28"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:53"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:54"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:54"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:55"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:57"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:29:59"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:04"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:06"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:08"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:10"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:13"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:14"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:30:16"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:02"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:05"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:06"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:07"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:08"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:09"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:12"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:14"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:16"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:19"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:20"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:22"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:23"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:27"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:29"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:30"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:34"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:36"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:38"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:40"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:42"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:42"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:44"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:46"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:48"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:51"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:54"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:31:57"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:01"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:03"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:06"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:15"}
+{"error":"Connection is closed.","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:15"}
+{"error":"Connection is closed.","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:15"}
+{"error":"Connection is closed.","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:15"}
+{"error":"ERR max number of clients reached","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:32:16"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:35:00"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 20:35:20"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:05"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:06"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:06"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:06"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:06"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:06"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:06"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:07"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:08"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:08"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:08"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:08"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:09"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:09"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:10"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:10"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:10"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:10"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:11"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:11"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:12"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:12"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:13"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:13"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:14"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 21:15:14"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:05:22"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:05:22"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:09:46"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:09:46"}
+{"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:21:13"}
+{"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:21:23"}
+{"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:21:33"}
+{"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-06 22:21:35"}

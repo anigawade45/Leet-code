@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Fullstack\\leetcode\\logs\\.61f4183e42dfa038cc179a7c27c4b0fd5d42951c-audit.json",
+    "files": [
+        {
+            "date": 1783321364173,
+            "name": "D:\\Fullstack\\leetcode\\logs\\error-2026-07-06.log",
+            "hash": "c70f75fbe7e76a6637350a8d4ffe894c6a6cd8fffe5961fc8b0afad36a81f808"
+        },
+        {
+            "date": 1783363675213,
+            "name": "D:\\Fullstack\\leetcode\\logs\\error-2026-07-07.log",
+            "hash": "11faa3be4780a0c8f68fb21481c1b2b0e9cbadd7f61b2321cd193b78ce3534f1"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LeetCode Clone - Deployment Guide
 
-## Getting Started
+This guide covers deploying the **Next.js Frontend & API** to Vercel, and deploying the **PostgreSQL Database & Redis instances** to a VPS (Virtual Private Server) using Docker.
 
-First, run the development server:
+Because Vercel is a serverless environment, it cannot run long-lived processes like the BullMQ worker or the Socket.io WebSocket server. Therefore, we use a hybrid deployment model.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Architecture Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Vercel**: Hosts the Next.js frontend and serverless API routes (`/api/*`).
+- **Docker/VPS**: Hosts PostgreSQL (Database), Redis (Queue/Sockets), the BullMQ Worker process, and the Socket.io Node.js server.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Step 1: Deploy Database & Redis (Docker)
 
-To learn more about Next.js, take a look at the following resources:
+You will need a VPS (like DigitalOcean, AWS EC2, or Hetzner) with Docker and Docker Compose installed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. SSH into your VPS.
+2. Clone this repository or copy the `docker-compose.yml` file to the server.
+3. Start the containers in detached mode:
+   ```bash
+   docker-compose up -d
+   ```
+4. This will spin up two containers:
+   - **PostgreSQL 15** on port `5432`
+   - **Redis 7** on port `6379`
+5. **Note**: Make sure your VPS firewall allows connections to ports `5432` and `6379` if your Vercel app needs to connect to them remotely, OR securely connect Vercel to your VPS using a VPC/Tunnel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Step 2: Configure Environment Variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create a `.env.production` file (or set these directly in Vercel's Environment Variables dashboard) based on `.env.example`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **`NEXT_PUBLIC_APP_URL`**: Change to your Vercel production URL.
+   ```
+   NEXT_PUBLIC_APP_URL="https://my-leetcode-clone.vercel.app"
+   ```
+2. **`DATABASE_URL`**: Point to your VPS PostgreSQL instance.
+   ```
+   DATABASE_URL="postgresql://postgres:password@<YOUR_VPS_IP>:5432/leetcode?schema=public"
+   ```
+3. **`REDIS_URL`**: Point to your VPS Redis instance.
+   ```
+   REDIS_URL="redis://<YOUR_VPS_IP>:6379"
+   ```
+4. **`JWT_SECRET`**: Add a strong, random 32-character string.
+
+---
+
+## Step 3: Deploy Frontend & API to Vercel
+
+1. Push your repository to GitHub.
+2. Log in to [Vercel](https://vercel.com) and click **Add New Project**.
+3. Import your GitHub repository.
+4. **Environment Variables**: Under the "Environment Variables" section in Vercel, carefully paste in all the variables you configured in Step 2.
+5. **Build & Deploy**: Click Deploy. Vercel will automatically read the `vercel.json` file, run `npx prisma generate && next build`, and deploy your Next.js application!
+
+---
+
+## Step 4: Run the Worker & WebSocket Server
+
+Because Vercel cannot run the WebSockets or the BullMQ worker, you must run them on your VPS alongside your database.
+
+1. On your VPS, inside your cloned repository, install dependencies:
+   ```bash
+   npm install
+   ```
+2. Set up your `.env` file on the VPS with the `DATABASE_URL` and `REDIS_URL` pointing to `localhost` (since the Docker containers are on the same machine).
+3. Start the worker and socket servers using a process manager like `pm2`:
+   ```bash
+   npm install -g pm2
+   pm2 start npm --name "leetcode-worker" -- run worker
+   pm2 start npm --name "leetcode-socket" -- run socket
+   ```
+
+## Congratulations! 🎉
+Your LeetCode clone is now live and fully operational with gamification points, live execution, and a stunning UI.
