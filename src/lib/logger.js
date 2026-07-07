@@ -22,39 +22,41 @@ const fileFormat = winston.format.combine(
 
 // Transports
 const transports = [
-  // Console logging for development
+  // Console logging for development and Vercel
   new winston.transports.Console({
     level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
     format: consoleFormat,
   }),
-  // Daily rotate file for all logs
-  new winston.transports.DailyRotateFile({
-    filename: path.join(process.cwd(), 'logs', 'application-%DATE%.log'),
-    datePattern: 'YYYY-MM-DD',
-    zippedArchive: true,
-    maxSize: '20m',
-    maxFiles: '14d',
-    level: 'info',
-    format: fileFormat,
-  }),
-  // Daily rotate file for errors only
-  new winston.transports.DailyRotateFile({
-    filename: path.join(process.cwd(), 'logs', 'error-%DATE%.log'),
-    datePattern: 'YYYY-MM-DD',
-    zippedArchive: true,
-    maxSize: '20m',
-    maxFiles: '14d',
-    level: 'error',
-    format: fileFormat,
-  }),
 ]
 
-// Create the logger
-export const logger = winston.createLogger({
-  level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
-  transports,
-  // Handle exceptions and rejections
-  exceptionHandlers: [
+// Only add file logging if NOT running on Vercel
+const isVercel = process.env.VERCEL === '1'
+const exceptionHandlers = []
+const rejectionHandlers = []
+
+if (!isVercel) {
+  transports.push(
+    new winston.transports.DailyRotateFile({
+      filename: path.join(process.cwd(), 'logs', 'application-%DATE%.log'),
+      datePattern: 'YYYY-MM-DD',
+      zippedArchive: true,
+      maxSize: '20m',
+      maxFiles: '14d',
+      level: 'info',
+      format: fileFormat,
+    }),
+    new winston.transports.DailyRotateFile({
+      filename: path.join(process.cwd(), 'logs', 'error-%DATE%.log'),
+      datePattern: 'YYYY-MM-DD',
+      zippedArchive: true,
+      maxSize: '20m',
+      maxFiles: '14d',
+      level: 'error',
+      format: fileFormat,
+    })
+  )
+
+  exceptionHandlers.push(
     new winston.transports.DailyRotateFile({
       filename: path.join(process.cwd(), 'logs', 'exceptions-%DATE%.log'),
       datePattern: 'YYYY-MM-DD',
@@ -62,9 +64,10 @@ export const logger = winston.createLogger({
       maxSize: '20m',
       maxFiles: '14d',
       format: fileFormat,
-    }),
-  ],
-  rejectionHandlers: [
+    })
+  )
+
+  rejectionHandlers.push(
     new winston.transports.DailyRotateFile({
       filename: path.join(process.cwd(), 'logs', 'rejections-%DATE%.log'),
       datePattern: 'YYYY-MM-DD',
@@ -72,7 +75,16 @@ export const logger = winston.createLogger({
       maxSize: '20m',
       maxFiles: '14d',
       format: fileFormat,
-    }),
-  ],
+    })
+  )
+}
+
+// Create the logger
+export const logger = winston.createLogger({
+  level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
+  transports,
+  // Handle exceptions and rejections
+  exceptionHandlers: exceptionHandlers.length > 0 ? exceptionHandlers : undefined,
+  rejectionHandlers: rejectionHandlers.length > 0 ? rejectionHandlers : undefined,
   exitOnError: false, // Do not exit on handled exceptions
 })
