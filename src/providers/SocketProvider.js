@@ -15,8 +15,14 @@ export const SocketProvider = ({ children }) => {
   const [isConnected, setIsConnected] = useState(false)
 
   useEffect(() => {
-    // In production, this should point to your live socket server domain
-    const socketInstance = io('http://localhost:3001', {
+    const socketUrl = process.env.NEXT_PUBLIC_SOCKET_URL || 'http://localhost:3001'
+
+    const socketInstance = io(socketUrl, {
+      path: '/socket.io/',
+      transports: ['websocket', 'polling'],
+      withCredentials: true,
+      autoConnect: true,
+      reconnection: true,
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
     })
