@@ -5,11 +5,11 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
 
 const contentSecurityPolicy = [
   "default-src 'self'",
-  "script-src 'self'",
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data:",
+  "img-src 'self' data: blob: https:",
   "font-src 'self' data:",
-  "connect-src 'self' https://*.googleapis.com https://*.gstatic.com",
+  "connect-src 'self' https://*.googleapis.com https://*.gstatic.com ws: wss: http: https:",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",

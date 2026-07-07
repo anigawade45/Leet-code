@@ -138,3 +138,5 @@
 {"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-07 16:35:46"}
 {"error":"connect ETIMEDOUT","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-07 16:35:56"}
 {"error":"getaddrinfo ENOTFOUND redis-14362.c9.us-east-1-4.ec2.cloud.redislabs.com","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-07 16:35:57"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-07 18:23:01"}
+{"error":"read ECONNRESET","event":"WORKER_ERROR","level":"error","message":"[JudgeWorker] Worker error","timestamp":"2026-07-07 18:23:02"}
