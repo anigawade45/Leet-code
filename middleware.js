@@ -37,7 +37,6 @@ export async function middleware(request) {
   const publicRoutes = ['/', '/login', '/register']
   const authRoutes = ['/login', '/register']
   const protectedRoutes = [
-    '/problems',
     '/submissions',
     '/profile',
     '/settings',
