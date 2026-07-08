@@ -11,7 +11,7 @@ const subscriber = new Redis(redisUrl, {
   enableReadyCheck: true,
 })
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 
 const server = http.createServer()
 const allowedOrigins = process.env.SOCKET_ORIGINS

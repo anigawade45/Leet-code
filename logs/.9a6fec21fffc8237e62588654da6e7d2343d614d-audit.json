@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Fullstack\\leetcode\\logs\\.9a6fec21fffc8237e62588654da6e7d2343d614d-audit.json",
+    "files": [
+        {
+            "date": 1783487574385,
+            "name": "D:\\Fullstack\\leetcode\\logs\\rejections-2026-07-08.log",
+            "hash": "d194a359a8997eba66bc6c172d6a0fd58b61e1d3a68d756319ad003a6587793f"
+        }
+    ],
+    "hashType": "sha256"
+}
