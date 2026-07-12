@@ -9,14 +9,14 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
 
 const contentSecurityPolicy = [
   "default-src 'self'",
-  // Next.js requires unsafe-inline and unsafe-eval for development.
-  // In production, consider migrating to nonces (next/headers) to remove these.
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+  // Next.js requires unsafe-inline and unsafe-eval.
+  // Monaco Editor loads its web workers and helper scripts from jsdelivr CDN.
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://apis.google.com",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' data: https://fonts.gstatic.com",
   "img-src 'self' data: blob: https://res.cloudinary.com https:",
-  // Include the socket server origin for WebSocket connections
-  `connect-src 'self' ${process.env.NEXT_PUBLIC_SOCKET_URL || 'http://localhost:3001'} ws: wss: https://api.resend.com`,
+  // Allow WebSockets connections to local and Render endpoints
+  "connect-src 'self' http://localhost:3001 ws://localhost:3001 wss://leet-code-9v9m.onrender.com https://leet-code-9v9m.onrender.com https://api.resend.com wss://*.onrender.com ws: wss: http: https:",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",

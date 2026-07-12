@@ -88,7 +88,7 @@ export async function populateTestCaseOutputs(problemId) {
         }
       }
 
-      const { logger } = await import('../logger.js')
+      const { logger } = await import('@/lib/logger')
       logger.info({ count: needsOutput.length, problemId, event: 'TEST_CASES_POPULATED' }, '[populateTestCaseOutputs] Populated test case outputs')
     } finally {
       try {
