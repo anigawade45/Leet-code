@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { verifyToken } from '@/lib/jwt'
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS
-  ? process.env.ALLOWED_ORIGINS.split(',').map((origin) => origin.trim()).filter(Boolean)
+  ? process.env.ALLOWED_ORIGINS.split(',').map((origin) => origin.trim().replace(/\/$/, '')).filter(Boolean)
   : ['http://localhost:3000']
 
 function getAllowedOrigin(origin) {

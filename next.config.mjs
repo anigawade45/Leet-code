@@ -4,7 +4,7 @@ const IS_PROD = process.env.NODE_ENV === 'production'
 
 // The first origin in ALLOWED_ORIGINS is used as the Access-Control-Allow-Origin header
 const allowedOrigins = process.env.ALLOWED_ORIGINS
-  ? process.env.ALLOWED_ORIGINS.split(',').map((origin) => origin.trim()).filter(Boolean)
+  ? process.env.ALLOWED_ORIGINS.split(',').map((origin) => origin.trim().replace(/\/$/, '')).filter(Boolean)
   : ['http://localhost:3000']
 
 const contentSecurityPolicy = [
