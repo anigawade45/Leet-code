@@ -1,0 +1,2 @@
+{"level":"warn","message":{"event":"USER_LOGIN_FAILED","ip":"::1","message":"Invalid credentials"},"timestamp":"2026-07-10 12:20:44"}
+{"level":"info","message":{"email":"anigawade05@gmail.com","event":"USER_LOGIN_SUCCESS","ip":"::1","userId":"4b4a5546-7d17-489f-9622-348c081f6b9f"},"timestamp":"2026-07-10 12:20:53"}

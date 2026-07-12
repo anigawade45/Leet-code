@@ -1,3 +1,4 @@
+import '@/lib/env' // ← startup env validation: throws in production if vars are missing
 import { PrismaClient } from '@prisma/client'
 import { PrismaPg } from '@prisma/adapter-pg'
 import { Pool } from 'pg'

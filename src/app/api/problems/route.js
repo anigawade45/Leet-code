@@ -8,6 +8,13 @@ import { errorResponse } from '@/lib/api-response'
 
 export async function GET(request) {
   try {
+    const ip = request.headers.get('x-forwarded-for') || '127.0.0.1'
+    const { rateLimit } = await import('@/utils/rate-limit')
+    const limitRes = await rateLimit(ip, 'problems-list', 'public')
+    if (!limitRes.success) {
+      return errorResponse('Too many requests. Please try again later.', 'RATE_LIMIT_EXCEEDED', 429)
+    }
+
     const { searchParams } = new URL(request.url)
     const search = searchParams.get('search') || undefined
     const difficulty = searchParams.get('difficulty') || undefined

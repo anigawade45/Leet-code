@@ -28,12 +28,16 @@ export const SocketProvider = ({ children }) => {
     })
 
     socketInstance.on('connect', () => {
-      console.log('[SocketProvider] Connected with ID:', socketInstance.id)
+      if (process.env.NODE_ENV !== 'production') {
+        console.log('[SocketProvider] Connected with ID:', socketInstance.id)
+      }
       setIsConnected(true)
     })
 
     socketInstance.on('disconnect', () => {
-      console.log('[SocketProvider] Disconnected')
+      if (process.env.NODE_ENV !== 'production') {
+        console.log('[SocketProvider] Disconnected')
+      }
       setIsConnected(false)
     })
 

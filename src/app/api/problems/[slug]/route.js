@@ -8,6 +8,13 @@ import { errorResponse } from '@/lib/api-response'
 
 export async function GET(request, { params }) {
   try {
+    const ip = request.headers.get('x-forwarded-for') || '127.0.0.1'
+    const { rateLimit } = await import('@/utils/rate-limit')
+    const limitRes = await rateLimit(ip, 'problem-detail', 'public')
+    if (!limitRes.success) {
+      return errorResponse('Too many requests. Please try again later.', 'RATE_LIMIT_EXCEEDED', 429)
+    }
+
     const { slug } = await params
     const cacheKey = `problem:detail:${slug}`
     const redisClient = await getRedisConnection()
@@ -40,6 +47,12 @@ export async function PATCH(request, { params }) {
     const payload = verifyToken(token)
     if (!payload) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+    }
+
+    const { rateLimit } = await import('@/utils/rate-limit')
+    const limitRes = await rateLimit(payload.userId, 'problem-patch', 'user')
+    if (!limitRes.success) {
+      return errorResponse('Too many requests. Please try again later.', 'RATE_LIMIT_EXCEEDED', 429)
     }
 
     const body = await request.json()
@@ -88,6 +101,12 @@ export async function DELETE(request, { params }) {
     const payload = verifyToken(token)
     if (!payload) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+    }
+
+    const { rateLimit } = await import('@/utils/rate-limit')
+    const limitRes = await rateLimit(payload.userId, 'problem-delete', 'user')
+    if (!limitRes.success) {
+      return errorResponse('Too many requests. Please try again later.', 'RATE_LIMIT_EXCEEDED', 429)
     }
 
     // First, get problem by slug to get its ID

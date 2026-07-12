@@ -223,6 +223,6 @@ export async function GET() {
     })
   } catch (error) {
     console.error('Admin dashboard error:', error)
-    return errorResponse(error.message || 'Failed to get dashboard data', 'INTERNAL_SERVER_ERROR', 500)
+    return errorResponse('Failed to get dashboard data', 'INTERNAL_SERVER_ERROR', 500)
   }
 }

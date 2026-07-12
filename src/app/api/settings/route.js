@@ -69,7 +69,13 @@ export async function PATCH(request) {
         return errorResponse('Password must be at least 8 characters long', 'VALIDATION_ERROR', 400)
       }
 
-      const isPasswordValid = await comparePassword(currentPassword, user.password)
+      // Fetch the stored hash — authenticateUser() intentionally omits password
+      const userWithPassword = await prisma.user.findUnique({
+        where: { id: user.id },
+        select: { password: true }
+      })
+
+      const isPasswordValid = await comparePassword(currentPassword, userWithPassword.password)
       if (!isPasswordValid) {
         return errorResponse('Incorrect current password', 'VALIDATION_ERROR', 400)
       }
@@ -121,10 +127,10 @@ export async function DELETE(request) {
       where: { id: user.id }
     })
 
-    // Invalidate cache
+    // Invalidate cache — use userId, not email (email is PII)
     const redisClient = await getRedisConnection()
     await redisClient.del(`user:${user.username}`)
-    await redisClient.del(`user:${user.email}`)
+    await redisClient.del(`user:${user.id}`)
 
     // Clear auth cookie
     const cookieStore = await cookies()

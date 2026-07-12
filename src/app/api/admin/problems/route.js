@@ -43,6 +43,6 @@ export async function GET(request) {
     return NextResponse.json({ success: true, problems })
   } catch (error) {
     console.error('Admin get problems error:', error)
-    return errorResponse(error.message || 'Failed to get problems', 'INTERNAL_SERVER_ERROR', 500)
+    return errorResponse('Failed to get problems', 'INTERNAL_SERVER_ERROR', 500)
   }
 }

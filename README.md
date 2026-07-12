@@ -6,6 +6,27 @@ Because Vercel is a serverless environment, it cannot run long-lived processes l
 
 ---
 
+## ⚠️ Security Warning — Rotate Any Previously Hardcoded Secrets
+
+> **IMPORTANT**: If any real secret (API key, database password, JWT secret, etc.) was ever
+> committed directly into source code — even if it has since been removed — **that value is
+> permanently visible in git history** and must be treated as compromised.
+>
+> **Rotate the following immediately if they were ever committed or shared:**
+> - `DATABASE_URL` / PostgreSQL credentials → change the DB password
+> - `JWT_SECRET` → generate a new one (`openssl rand -base64 32`)
+> - `GEMINI_API_KEY` → revoke and regenerate in Google AI Studio
+> - `REDIS_URL` / Redis credentials → rotate in your Redis provider dashboard
+> - `RESEND_API_KEY` → revoke in Resend dashboard and issue a new key
+> - `CLOUDINARY_API_SECRET` → revoke in Cloudinary console and issue a new key
+>
+> All secrets live **only** in `.env` (which is `.gitignore`d) or in your hosting
+> platform's secrets manager (e.g., Vercel Environment Variables). Never hardcode
+> credentials in source files.
+
+---
+
+
 ## Architecture Overview
 
 - **Vercel**: Hosts the Next.js frontend and serverless API routes (`/api/*`).
@@ -32,21 +53,26 @@ You will need a VPS (like DigitalOcean, AWS EC2, or Hetzner) with Docker and Doc
 
 ## Step 2: Configure Environment Variables
 
-Create a `.env.production` file (or set these directly in Vercel's Environment Variables dashboard) based on `.env.example`:
+Create a `.env.production` file (or set these directly in Vercel's Environment Variables dashboard) based on `.env.example`. **Never store real secrets in `.env.example` or commit `.env`.**
 
-1. **`NEXT_PUBLIC_APP_URL`**: Change to your Vercel production URL.
-   ```
-   NEXT_PUBLIC_APP_URL="https://my-leetcode-clone.vercel.app"
-   ```
-2. **`DATABASE_URL`**: Point to your VPS PostgreSQL instance.
-   ```
-   DATABASE_URL="postgresql://postgres:password@<YOUR_VPS_IP>:5432/leetcode?schema=public"
-   ```
-3. **`REDIS_URL`**: Point to your VPS Redis instance.
-   ```
-   REDIS_URL="redis://<YOUR_VPS_IP>:6379"
-   ```
-4. **`JWT_SECRET`**: Add a strong, random 32-character string.
+| Variable | Side | Required | Description |
+|---|---|---|---|
+| `NEXT_PUBLIC_APP_URL` | Client + Server | Yes | Your Vercel production URL |
+| `DATABASE_URL` | Server only | Yes | PostgreSQL connection string |
+| `REDIS_URL` | Server only | Yes | Redis connection string |
+| `JWT_SECRET` | Server only | Yes | Min 32-char random string (`openssl rand -base64 32`) |
+| `GEMINI_API_KEY` | Server only | Yes | Google AI Studio API key |
+| `RESEND_API_KEY` | Server only | Yes | Resend email API key |
+| `FROM_EMAIL` | Server only | No | Sender email (default: `onboarding@resend.dev`) |
+| `CLOUDINARY_CLOUD_NAME` | Server only | Yes | Cloudinary cloud name |
+| `CLOUDINARY_API_KEY` | Server only | Yes | Cloudinary API key |
+| `CLOUDINARY_API_SECRET` | Server only | Yes | Cloudinary API secret |
+| `ALLOWED_ORIGINS` | Server only | No | Comma-separated CORS origins |
+| `SOCKET_ORIGINS` | Server only | No | Comma-separated Socket.IO origins |
+| `NEXT_PUBLIC_SOCKET_URL` | Client + Server | Yes | WebSocket server URL (not a credential) |
+
+> **Note on `NEXT_PUBLIC_` prefix**: Only `NEXT_PUBLIC_APP_URL` and `NEXT_PUBLIC_SOCKET_URL` use this prefix — they are non-secret URLs, not credentials. All API keys and secrets use plain env var names (no `NEXT_PUBLIC_` prefix) to keep them server-side only.
+
 
 ---
 

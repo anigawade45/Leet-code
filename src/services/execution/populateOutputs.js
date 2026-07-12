@@ -88,7 +88,8 @@ export async function populateTestCaseOutputs(problemId) {
         }
       }
 
-      console.log(`[populateTestCaseOutputs] Populated outputs for ${needsOutput.length} test case(s) on problem ${problemId}`)
+      const { logger } = await import('../logger.js')
+      logger.info({ count: needsOutput.length, problemId, event: 'TEST_CASES_POPULATED' }, '[populateTestCaseOutputs] Populated test case outputs')
     } finally {
       try {
         await fs.rm(refDir, { recursive: true, force: true })

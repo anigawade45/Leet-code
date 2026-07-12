@@ -29,8 +29,7 @@ export function useAdminDashboard() {
       setLastUpdated(new Date())
     } catch (err) {
       if (err.name === 'AbortError') {
-        console.log('Fetch aborted')
-        return
+        return // AbortError is expected — no need to log
       }
       console.error('Dashboard fetch error:', err)
       setError(err.message)

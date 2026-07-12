@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "worker:dev": "tsx --env-file=.env src/workers/judge.worker.js",
-    "worker": "tsx src/workers/judge.worker.js",
+    "worker": "tsx --env-file=.env src/workers/judge.worker.js",
     "socket:dev": "tsx --env-file=.env src/socket/server.js",
-    "socket": "tsx src/socket/server.js",
+    "socket": "tsx --env-file=.env src/socket/server.js",
     "postinstall": "prisma generate"
   },
   "dependencies": {

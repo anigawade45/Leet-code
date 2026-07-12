@@ -28,7 +28,8 @@ function compareOutputs(actualStr, expectedStr) {
 }
 
 export const judgeWorker = new Worker('submissions', async (job) => {
-  console.log(`[JudgeWorker] Processing job ${job.id} for submission ${job.data.submissionId}`)
+  const { logger } = await import('../lib/logger.js')
+  logger.info({ jobId: job.id, submissionId: job.data.submissionId, event: 'JOB_STARTED' }, '[JudgeWorker] Processing job')
   
   const { submissionId, userId, problemId, language, code, customTestCases, contestId } = job.data
 

@@ -2,13 +2,14 @@ import { NextResponse } from 'next/server'
 import { AuthService } from '@/services/auth.service'
 import { registerSchema } from '@/lib/validators'
 import { errorResponse } from '@/lib/api-response'
-import { authCookieOptions } from '@/lib/jwt'
+import { rateLimit } from '@/utils/rate-limit'
 
 export async function POST(request) {
   try {
     const ip = request.headers.get('x-forwarded-for') || '127.0.0.1'
-    const { rateLimit } = await import('@/utils/rate-limit')
-    const limitRes = await rateLimit(ip, 'register', 5, 60)
+    
+    // IP-based register rate limiting (Auth tier: stricter)
+    const limitRes = await rateLimit(ip, 'register', 'auth')
 
     if (!limitRes.success) {
       return errorResponse('Too many registration attempts, please try again later.', 'RATE_LIMIT_EXCEEDED', 429)

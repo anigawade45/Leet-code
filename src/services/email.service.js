@@ -35,10 +35,10 @@ export const EmailService = {
         `,
       });
 
-      logger.info({ email, event: 'EMAIL_VERIFICATION_SENT' }, 'Verification email sent');
+      logger.info({ event: 'EMAIL_VERIFICATION_SENT' }, 'Verification email sent');
       return { success: true, data };
     } catch (error) {
-      logger.error({ email, error: error.message, event: 'EMAIL_VERIFICATION_FAILED' }, 'Failed to send verification email');
+      logger.error({ event: 'EMAIL_VERIFICATION_FAILED', error: error.message }, 'Failed to send verification email');
       throw new Error('Failed to send verification email');
     }
   },

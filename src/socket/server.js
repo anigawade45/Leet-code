@@ -12,6 +12,7 @@ const subscriber = new Redis(redisUrl, {
 })
 
 const PORT = process.env.PORT || 3001
+const IS_PROD = process.env.NODE_ENV === 'production'
 
 const server = http.createServer()
 const allowedOrigins = process.env.SOCKET_ORIGINS
@@ -32,17 +33,21 @@ const io = new Server(server, {
   }
 })
 
+function log(msg) {
+  if (!IS_PROD) console.log(msg)
+}
+
 async function initializeRedisSubscriber() {
   subscriber.on('error', (err) => {
-    console.error('[SocketServer] Redis error:', err)
+    console.error('[SocketServer] Redis error:', err.message)
   })
 
   try {
     await subscriber.connect()
     await subscriber.subscribe('socket:broadcast')
-    console.log('[SocketServer] Subscribed successfully to socket:broadcast')
+    log('[SocketServer] Subscribed successfully to socket:broadcast')
   } catch (err) {
-    console.error('[SocketServer] Failed to subscribe to Redis:', err)
+    console.error('[SocketServer] Failed to subscribe to Redis:', err.message)
   }
 }
 
@@ -56,45 +61,44 @@ subscriber.on('message', (channel, message) => {
       
       if (room) {
         io.to(room).emit(event, payload)
-        console.log(`[SocketServer] Broadcasted event '${event}' to room '${room}'`)
+        log(`[SocketServer] Broadcasted event '${event}' to room '${room}'`)
       } else {
         io.emit(event, payload)
-        console.log(`[SocketServer] Broadcasted global event '${event}'`)
+        log(`[SocketServer] Broadcasted global event '${event}'`)
       }
     } catch (e) {
-      console.error('[SocketServer] Error parsing message:', e)
+      console.error('[SocketServer] Error parsing message:', e.message)
     }
   }
 })
 
 io.on('connection', (socket) => {
-  console.log(`[SocketServer] Client connected: ${socket.id}`)
+  log(`[SocketServer] Client connected: ${socket.id}`)
 
-  // Dynamic Room Joining
   socket.on('join-room', (room) => {
     socket.join(room)
-    console.log(`[SocketServer] Socket ${socket.id} joined room: ${room}`)
+    log(`[SocketServer] Socket ${socket.id} joined room: ${room}`)
   })
 
   socket.on('leave-room', (room) => {
     socket.leave(room)
-    console.log(`[SocketServer] Socket ${socket.id} left room: ${room}`)
+    log(`[SocketServer] Socket ${socket.id} left room: ${room}`)
   })
 
   socket.on('disconnect', () => {
-    console.log(`[SocketServer] Client disconnected: ${socket.id}`)
+    log(`[SocketServer] Client disconnected: ${socket.id}`)
   })
 })
 
 server.listen(PORT, () => {
-  console.log(`[SocketServer] Socket.IO server running on port ${PORT}`)
+  console.info(`[SocketServer] Socket.IO server running on port ${PORT}`)
 })
 
-process.on('unhandledRejection', (reason, promise) => {
+process.on('unhandledRejection', (reason) => {
   console.error('[SocketServer] Unhandled promise rejection:', reason)
 })
 
 process.on('uncaughtException', (err) => {
-  console.error('[SocketServer] Uncaught exception:', err)
+  console.error('[SocketServer] Uncaught exception:', err.message)
   process.exit(1)
 })

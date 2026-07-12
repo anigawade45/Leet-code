@@ -26,8 +26,8 @@ export const AuthService = {
     })
 
     // Send verification email asynchronously
-    EmailService.sendVerificationEmail(user.email, verificationToken).catch((err) => {
-      console.error('Failed to send verification email during registration', err)
+    EmailService.sendVerificationEmail(user.email, verificationToken).catch(() => {
+      console.error('[AuthService] Failed to send verification email during registration')
     })
 
     // We do NOT generate a JWT token yet because the user needs to verify
@@ -35,9 +35,9 @@ export const AuthService = {
   },
 
   async login(emailOrUsername, password) {
-    let user = await UserRepository.findByEmail(emailOrUsername)
+    let user = await UserRepository.findByEmailWithPassword(emailOrUsername)
     if (!user) {
-      user = await UserRepository.findByUsername(emailOrUsername)
+      user = await UserRepository.findByUsernameWithPassword(emailOrUsername)
     }
 
     if (!user) {
@@ -54,8 +54,11 @@ export const AuthService = {
     }
 
     const token = generateToken({ userId: user.id, email: user.email, role: user.role })
-    return { user, token }
+    // Strip password before returning user object
+    const { password: _pw, ...safeUser } = user
+    return { user: safeUser, token }
   },
+
 
   async verifyEmail(token) {
     const user = await UserRepository.findByVerificationToken(token)

@@ -18,7 +18,7 @@ export async function GET(request) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
 
-    console.log('[API] POST /api/submissions - authenticated user:', payload.userId)
+
 
     const { searchParams } = new URL(request.url)
     const problemId = searchParams.get('problemId')
@@ -36,7 +36,7 @@ export async function GET(request) {
     return NextResponse.json({ success: true, submissions: result.data, pagination: result.pagination })
   } catch (error) {
     console.error('Get submissions error:', error)
-    return errorResponse(error.message, 'INTERNAL_SERVER_ERROR', 500)
+    return errorResponse('Failed to get submissions', 'INTERNAL_SERVER_ERROR', 500)
   }
 }
 
@@ -65,7 +65,7 @@ export async function POST(request) {
     const validatedData = submissionSchema.parse(body)
 
     const { problemId, language, code, customTestCases, contestId } = validatedData
-    console.log('[API] /api/submissions validated payload for user', payload.userId, { problemId, contestId, language })
+
 
     const problem = await prisma.problem.findUnique({
       where: { id: problemId },
@@ -138,6 +138,6 @@ export async function POST(request) {
       return errorResponse('Invalid input format', 'VALIDATION_ERROR', 400)
     }
     console.error('Submit code error:', error)
-    return errorResponse(error.message, 'INTERNAL_SERVER_ERROR', 500)
+    return errorResponse('Failed to submit code', 'INTERNAL_SERVER_ERROR', 500)
   }
 }

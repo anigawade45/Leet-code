@@ -38,10 +38,16 @@ export async function POST(request) {
     }
 
     const body = await request.json()
-    const { language, code, problemId, input, customTestCases } = body
+    const { executeSchema } = await import('@/lib/validators')
+    const validatedData = executeSchema.parse(body)
+    const { language, code, problemId, input, customTestCases } = validatedData
 
-    if (!language || !code) {
-      return errorResponse('Missing language or code', 'BAD_REQUEST', 400)
+    // Rate limit code execution: 20 runs per minute per user
+    const payload = verifyToken(token)
+    const { rateLimit } = await import('@/utils/rate-limit')
+    const limitRes = await rateLimit(payload.userId, 'execute', 20, 60)
+    if (!limitRes.success) {
+      return errorResponse('Too many execution requests. Please wait before trying again.', 'RATE_LIMIT_EXCEEDED', 429)
     }
 
     const config = LANGUAGE_CONFIGS[language.toLowerCase()]
@@ -232,6 +238,10 @@ export async function POST(request) {
       }
     }
   } catch (error) {
-    return errorResponse(error.message, 'INTERNAL_SERVER_ERROR', 500)
+    if (error.name === 'ZodError') {
+      return errorResponse('Invalid input format', 'VALIDATION_ERROR', 400)
+    }
+    console.error('Execute route error:', error)
+    return errorResponse('Code execution failed', 'INTERNAL_SERVER_ERROR', 500)
   }
 }

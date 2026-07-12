@@ -22,6 +22,7 @@ export async function GET(request, { params }) {
 
     return NextResponse.json({ success: true, submission })
   } catch (error) {
-    return errorResponse(error.message, 'INTERNAL_SERVER_ERROR', 500)
+    console.error('Get submission error:', error)
+    return errorResponse('Failed to get submission', 'INTERNAL_SERVER_ERROR', 500)
   }
 }

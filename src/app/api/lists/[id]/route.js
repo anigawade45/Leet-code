@@ -23,6 +23,16 @@ export async function GET(request, { params }) {
 
     if (!list) return errorResponse('List not found', 'NOT_FOUND', 404)
 
+    if (!list.isPublic) {
+      const cookieStore = await cookies()
+      const token = cookieStore.get('token')?.value
+      if (!token) return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+      const payload = verifyToken(token)
+      if (!payload || payload.userId !== list.userId) {
+        return errorResponse('Forbidden', 'FORBIDDEN', 403)
+      }
+    }
+
     return NextResponse.json({ success: true, list })
   } catch (error) {
     console.error('Fetch list error:', error)
