@@ -17,7 +17,10 @@ function requireEnv(name, description = '') {
   const value = process.env[name]
   if (!value || value.trim() === '') {
     const msg = `[env] Missing required environment variable: ${name}${description ? ` (${description})` : ''}`
-    if (IS_PROD) {
+    // During Next.js static build generation phase (next build), actual production 
+    // environment secrets are often not available or injected. Bypassing throwing in next build.
+    const isBuildPhase = process.env.NEXT_PHASE === 'phase-production-build' || process.env.NODE_ENV === 'test'
+    if (IS_PROD && !isBuildPhase) {
       // Hard crash — do NOT allow the app to start without this
       throw new Error(msg)
     } else {
@@ -55,8 +58,9 @@ requireEnvMatching(
 )
 
 if (IS_PROD) {
+  const isBuildPhase = process.env.NEXT_PHASE === 'phase-production-build' || process.env.NODE_ENV === 'test'
   const dbUrl = process.env.DATABASE_URL || ''
-  if (!dbUrl.includes('sslmode=') && !dbUrl.includes('ssl=true')) {
+  if (!dbUrl.includes('sslmode=') && !dbUrl.includes('ssl=true') && !isBuildPhase) {
     throw new Error(
       '[env] DATABASE_URL in production must include SSL parameters (e.g., ?sslmode=verify-full)'
     )
@@ -66,7 +70,10 @@ if (IS_PROD) {
 // Auth — JWT secret must be a reasonable length
 const jwtSecret = requireEnv('JWT_SECRET', 'Used to sign auth tokens')
 if (jwtSecret && jwtSecret.length < 32 && IS_PROD) {
-  throw new Error('[env] JWT_SECRET must be at least 32 characters in production')
+  const isBuildPhase = process.env.NEXT_PHASE === 'phase-production-build' || process.env.NODE_ENV === 'test'
+  if (!isBuildPhase) {
+    throw new Error('[env] JWT_SECRET must be at least 32 characters in production')
+  }
 }
 
 // Redis
@@ -87,7 +94,12 @@ if (!process.env.GEMINI_API_KEY) {
 
 // CORS origins
 if (IS_PROD && !process.env.ALLOWED_ORIGINS) {
-  throw new Error('[env] ALLOWED_ORIGINS must be set in production to restrict CORS')
+  const isBuildPhase = process.env.NEXT_PHASE === 'phase-production-build' || process.env.NODE_ENV === 'test'
+  if (!isBuildPhase) {
+    throw new Error('[env] ALLOWED_ORIGINS must be set in production to restrict CORS')
+  } else {
+    console.warn('⚠️  [env] ALLOWED_ORIGINS is not set (bypassed in build phase)')
+  }
 }
 
 export const env = {
