@@ -183,7 +183,10 @@ export const ProblemRepository = {
             where: { userId_problemId: { userId, problemId } },
             select: { type: true },
           })
-        : Promise.resolve(null),
+        : prisma.problemReaction.findFirst({
+            where: { id: 'non-existent' },
+            select: { type: true }
+          }),
     ])
 
     return {
