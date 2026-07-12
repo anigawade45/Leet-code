@@ -30,10 +30,11 @@ function applySecurityHeaders(response, origin) {
   const contentSecurityPolicy = [
     "default-src 'self'",
     "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://apis.google.com",
-    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net",
     "font-src 'self' data: https://fonts.gstatic.com",
     "img-src 'self' data: blob: https://res.cloudinary.com https:",
     "connect-src 'self' http://localhost:3001 ws://localhost:3001 wss://leet-code-9v9m.onrender.com https://leet-code-9v9m.onrender.com https://api.resend.com wss://*.onrender.com ws: wss: http: https:",
+    "worker-src 'self' blob:",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",

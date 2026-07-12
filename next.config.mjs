@@ -12,11 +12,13 @@ const contentSecurityPolicy = [
   // Next.js requires unsafe-inline and unsafe-eval.
   // Monaco Editor loads its web workers and helper scripts from jsdelivr CDN.
   "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://apis.google.com",
-  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net",
   "font-src 'self' data: https://fonts.gstatic.com",
   "img-src 'self' data: blob: https://res.cloudinary.com https:",
   // Allow WebSockets connections to local and Render endpoints
   "connect-src 'self' http://localhost:3001 ws://localhost:3001 wss://leet-code-9v9m.onrender.com https://leet-code-9v9m.onrender.com https://api.resend.com wss://*.onrender.com ws: wss: http: https:",
+  // Allow Monaco Editor workers initialized from blob URLs
+  "worker-src 'self' blob:",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",
