@@ -35,8 +35,8 @@ export function verifyToken(token) {
 
 export const authCookieOptions = {
   httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: 'strict',
+  secure: true, // Required for sameSite: 'none'
+  sameSite: 'none', // Allows cookies to flow between Vercel and Render domains
   maxAge: 60 * 60 * 24 * 7,
   path: '/',
 }
